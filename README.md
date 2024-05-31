@@ -43,7 +43,7 @@ La funzione visita_grafo_prof è ricorsiva e visita ciascun vertice e arco del g
 ### Istruzione Iterativa (for):
 La complessità dell'istruzione iterativa (for) dipende dal numero di iterazioni e dalla complessità delle istruzioni all'interno del ciclo. In questo caso, supponiamo che il numero di iterazioni sia proporzionale al numero di vertici (n) del grafo. Quindi, se f(n) rappresenta la complessità delle istruzioni eseguite all'interno del ciclo, la complessità complessiva del ciclo sarà O(n * f(n)).
 
-## Complessità totale della stampa ordinata:
+### Complessità totale della stampa ordinata:
 Considerando la complessità dell'algoritmo di visita in profondità e dell'istruzione iterativa (for), la complessità totale per la stampa ordinata dei task è O(n + m) + O(n * f(n)) nel caso peggiore e O(n) nel caso ottimo.
 
 Per un'analisi più dettagliata e specifica, consultare il codice sorgente e l'implementazione delle funzioni coinvolte.
