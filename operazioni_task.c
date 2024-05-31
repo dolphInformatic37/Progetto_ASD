@@ -11,7 +11,7 @@
 
 /* dichiarazione delle funzioni */
 vertice_grafo_t *cerca_in_lista(vertice_grafo_t *testa_p,
-                                       int valore);
+                                int valore);
 
 void avvia_visita_grafo_prof(vertice_grafo_t *grafo_p,
                              int n);
