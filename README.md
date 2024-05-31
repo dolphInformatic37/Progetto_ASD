@@ -32,6 +32,22 @@ Il programma verifica se il file esiste e ha il formato richiesto, altrimenti te
 ### Stampa Ordinata dei Task
 Si effettua una visita in profondità per stampare i task ordinati rispettando le dipendenze.
 
+## Analisi della complessità del programma
+### Algoritmo di visita in profondità:
+L'algoritmo di visita in profondità del grafo è implementato attraverso due funzioni principali: avvia_visita_grafo_prof e visita_grafo_prof.
+
+La complessità della funzione avvia_visita_grafo_prof è lineare rispetto al numero di vertici del grafo, ed è quindi O(n), dove n rappresenta il numero di vertici. Questa complessità deriva principalmente dal fatto che ogni vertice viene visitato una sola volta durante l'inizializzazione.
+
+La funzione visita_grafo_prof è ricorsiva e visita ciascun vertice e arco del grafo. La complessità di questa visita dipende dal numero di vertici e archi e nel caso peggiore è O(n + m), dove n è il numero di vertici e m è il numero di archi.
+
+### Istruzione Iterativa (for):
+La complessità dell'istruzione iterativa (for) dipende dal numero di iterazioni e dalla complessità delle istruzioni all'interno del ciclo. In questo caso, supponiamo che il numero di iterazioni sia proporzionale al numero di vertici (n) del grafo. Quindi, se f(n) rappresenta la complessità delle istruzioni eseguite all'interno del ciclo, la complessità complessiva del ciclo sarà O(n * f(n)).
+
+## Complessità totale della stampa ordinata:
+Considerando la complessità dell'algoritmo di visita in profondità e dell'istruzione iterativa (for), la complessità totale per la stampa ordinata dei task è O(n + m) + O(n * f(n)) nel caso peggiore e O(n) nel caso ottimo.
+
+Per un'analisi più dettagliata e specifica, consultare il codice sorgente e l'implementazione delle funzioni coinvolte.
+
 ## Utilizzo
 Per compilare il programma, esegui il seguente comando nel terminale:
 
